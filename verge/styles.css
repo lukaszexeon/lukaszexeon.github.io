@@ -11,8 +11,10 @@
 
 #hide_button {
     left: 10px;
+    padding-top: 150px;
 }
 
 #show_button {
-    left: 120px;
+    left: 10;
+    padding-top: 200;
 }
