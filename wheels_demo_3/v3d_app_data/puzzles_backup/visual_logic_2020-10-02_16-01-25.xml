@@ -1,0 +1,64 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="true" scrollx="1077.7402419773657" scrolly="531.1325293968343" scale="0.8227024747918819">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="ayy}H;_2r01HWH^I6Ci5" x="-910" y="-570">
+      <field name="LOAD_COMP_ASSETS">FALSE</field>
+      <field name="FULLSCREEN">TRUE</field>
+      <field name="BKG_TRANSPARENCY">TRUE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setHTMLElemStyle" id="h1:YsDnGd447]/ZaT-m|" x="-1310" y="-390">
+      <field name="PROPERTY">background</field>
+      <field name="PARENT">FALSE</field>
+      <value name="VALUE">
+        <block type="text" id="rI=#(+5sO{q8*lCHpsvn">
+          <field name="TEXT">#ffffff</field>
+        </block>
+      </value>
+      <value name="ID">
+        <block type="DOMObjectSelector" id="W{PR$UaY6ZbjXRjrtin*">
+          <field name="DOM_OBJECT">BODY</field>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="p)B.N8l|2%S}p3ZJ~HLe" x="-1050" y="-230">
+      <field name="EVENT">change</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="UKTw}d9~!%LqyHM;rDtp">
+          <field name="TEXT">myRange</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="setMorphFactor" id="GNwuH/H}dOy,R,8x*NJ|">
+          <field name="TARGET_NAME">width</field>
+          <value name="OBJ_NAME">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="ZCkS^S}-C=zFgDBMxctl">
+              <field name="FIELDNAME">doors</field>
+            </block>
+          </value>
+          <value name="FACTOR">
+            <shadow type="math_number">
+              <field name="NUM">1</field>
+            </shadow>
+            <block type="getHTMLElemAttribute" id="TAIC(:A:!|ath7py]}iA">
+              <field name="ATTRIBUTE">value</field>
+              <field name="PARENT">TRUE</field>
+              <value name="ID">
+                <block type="text" id="To44|P2U;?u.{]0g_WrF">
+                  <field name="TEXT">myRange</field>
+                </block>
+              </value>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="dictCreateEmpty" id="[W*mPSgJTgT]nHlo[x|~" x="-890" y="-30"/>
+  </tab>
+  <tab name="main" type="MainTab" active="false" scrollx="1195" scrolly="610.5" scale="0.9"></tab>
+  <editorsettings viewport-x="1518" viewport-y="28" viewport-w="1024" viewport-h="648.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

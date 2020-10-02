@@ -1,0 +1,90 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="1188.7402419773653" scrolly="583.1325293968343" scale="0.8227024747918819">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="ayy}H;_2r01HWH^I6Ci5" x="-910" y="-570">
+      <field name="LOAD_COMP_ASSETS">FALSE</field>
+      <field name="FULLSCREEN">TRUE</field>
+      <field name="BKG_TRANSPARENCY">TRUE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setHTMLElemStyle" id="h1:YsDnGd447]/ZaT-m|" x="-1270" y="-370">
+      <field name="PROPERTY">background</field>
+      <field name="PARENT">FALSE</field>
+      <value name="VALUE">
+        <block type="text" id="rI=#(+5sO{q8*lCHpsvn">
+          <field name="TEXT">#ffffff</field>
+        </block>
+      </value>
+      <value name="ID">
+        <block type="DOMObjectSelector" id="W{PR$UaY6ZbjXRjrtin*">
+          <field name="DOM_OBJECT">BODY</field>
+        </block>
+      </value>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="true" scrollx="1028.622127441613" scrolly="342.08742458351526" scale="0.7462153966366275">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="xKsT`xW$UCTNX1rNn{{x" type="">currentWidth</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="]:Cuh(Uy(o)OEB9S3MD+" x="-1050" y="-450">
+      <field name="EVENT">change</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="Qa=QKu4e(IoFO0#V=Mk3">
+          <field name="TEXT">myRange</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="variables_set" id="!zuy!3$pFSU95c;,Hb{=">
+          <field name="VAR" id="xKsT`xW$UCTNX1rNn{{x">currentWidth</field>
+          <value name="VALUE">
+            <block type="math_arithmetic" id="EJ1Nf9;w+wwp2hZdmgzs">
+              <field name="OP">MINUS</field>
+              <value name="A">
+                <shadow type="math_number" id="kbI6m%~)ai4Vvt^LFVP:">
+                  <field name="NUM">100</field>
+                </shadow>
+              </value>
+              <value name="B">
+                <shadow type="math_number" id="O!ef6H*~c/IjS|1.g`]b">
+                  <field name="NUM">2</field>
+                </shadow>
+                <block type="getHTMLElemAttribute" id="b}^!,7x7%W,Fb6dO(_sL">
+                  <field name="ATTRIBUTE">value</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="ID">
+                    <block type="text" id="o?Q=}?m3!k8z)H~,fx=r">
+                      <field name="TEXT">myRange</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </value>
+          <next>
+            <block type="setMorphFactor" id="G6%QT8WRzp7uHZmt0GD`">
+              <field name="TARGET_NAME">width</field>
+              <value name="OBJ_NAME">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="N.4i$$fqHhh+B$2mQnmc">
+                  <field name="FIELDNAME">doors</field>
+                </block>
+              </value>
+              <value name="FACTOR">
+                <shadow type="math_number" id="+v%_KuyE3]+$|dDJg5jG">
+                  <field name="NUM">1</field>
+                </shadow>
+                <block type="variables_get" id="`GN{pb4|O#:pcFTf.piO">
+                  <field name="VAR" id="xKsT`xW$UCTNX1rNn{{x">currentWidth</field>
+                </block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1518" viewport-y="28" viewport-w="1024" viewport-h="648.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

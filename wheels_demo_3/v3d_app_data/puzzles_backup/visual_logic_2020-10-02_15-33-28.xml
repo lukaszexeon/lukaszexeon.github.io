@@ -1,0 +1,20 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="true" scrollx="1087.710583259579" scrolly="560.1325293968343" scale="0.8227024747918819">
+    <block xmlns="https://developers.google.com/blockly/xml" type="setHTMLElemStyle" id="h1:YsDnGd447]/ZaT-m|" x="-1310" y="-390">
+      <field name="PROPERTY">backgroundColor</field>
+      <field name="PARENT">FALSE</field>
+      <value name="VALUE">
+        <block type="text" id="rI=#(+5sO{q8*lCHpsvn">
+          <field name="TEXT">#ffffff</field>
+        </block>
+      </value>
+      <value name="ID">
+        <block type="DOMObjectSelector" id="W{PR$UaY6ZbjXRjrtin*">
+          <field name="DOM_OBJECT">CONTAINER</field>
+        </block>
+      </value>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="false" scrollx="1195" scrolly="610.5" scale="0.9"></tab>
+  <editorsettings viewport-x="1518" viewport-y="28" viewport-w="1024" viewport-h="648.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
