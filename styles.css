@@ -1,0 +1,128 @@
+/* general------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    padding: 10px;
+  }
+
+/* buttons----------------------------------------------- */
+
+#hide_button, #show_button, #submit_button, #form, #zero_button, #one_button, #clone_button, #quantity {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    left: 10px;
+}
+
+.generic_button {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    left: 10px;
+    color: white;
+    background-color: DodgerBlue;
+}
+
+#hide_button {
+    margin-top: 150px;
+    color: white;
+    background-color: DodgerBlue;
+}
+
+#show_button {
+    margin-top: 200px;
+    color: white;
+    background-color: DodgerBlue;
+}
+
+#zero_button {
+    margin-top: 250px;
+    color: white;
+    background-color: DodgerBlue;
+}
+
+#one_button {
+    margin-top: 300px;
+    color: white;
+    background-color: DodgerBlue;
+}
+
+#clone_button {
+  margin-top: 250px;
+  color: white;
+  background-color: DodgerBlue;
+}
+
+#submit_button {
+    margin-top: 450px;
+    color: white;
+    background-color: blue;
+
+}
+
+/* slider------------------------------------------------ */
+
+#quantity {
+    margin-top: 300px;
+}
+
+#form {
+    margin-top: 350px;
+    color: black;
+}
+  
+  .single_slider {
+    -webkit-appearance: none;
+    width: 10%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .single_slider:hover {
+    opacity: 1;
+  }
+  
+  .single_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #0d2ad1;
+    cursor: pointer;
+  }
+  
+  .single_slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+/* ---------------------------------------- */
+
+  
+  input[type="range"] {
+    position: relative;
+    display: block;
+    width: 300px;
+  }
+  
+  input[type="range"]::after {
+    /* content: attr(value); */
+    position: absolute;
+    left: 305px;
+  }
+  

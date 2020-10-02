@@ -22,9 +22,11 @@
 </head>
 
 <body>
-    <!-- <p2> Here is demo</p2> -->
+
     <div id="hide_button">Hide</div>
     <div id="show_button">Show</div>
+    <div id="clone_button">Clone</div>
+
     <!-- <div id="zero_button">1</div> -->
     <!-- <div id="one_button">0</div> -->
 
@@ -32,14 +34,22 @@
     <div id="submit_button">Submit</div>
 
 
-    <!-- <div id="slidecontainer">  -->
-    <!-- </div> -->
+    <iframe width="2048" height="920" src="wheels_dem_2.html"></iframe><br>
+    <input type="range" min="1" max="100" value="50" class="single_slider" id="myRange"><br>
 
 
-    <iframe width="2048" height="1080" src="wheels_dem_2.html"></iframe><br>
-    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+<!-- mutually dependent sliders -->
+    <input type="range" class="mutually_dep_slider" min="0" max="350" step="1" value="70"><br>
+    <input type="range" class="mutually_dep_slider" min="0" max="350" step="1" value="140"><br>
+    <input type="range" class="mutually_dep_slider" min="0" max="350" step="1" value="40"><br>
+    <input type="range" class="mutually_dep_slider" min="0" max="350" step="1" value="20"><br>
+    <input type="range" class="mutually_dep_slider" min="0" max="350" step="1" value="80"><br>
 
-    <!-- <button onclick="getElementById('demo').innerHTML=Date()">What is the time?</button> -->
-    <!-- <p id="demo"></p> -->
+    <script src="sliders.js"></script>
+    <script src="single_slider_update_number.js"></script>
+
+<!-- mutually dependent sliders -->
+
+  <a href="pattern.html" class="generic_button">pattern</a>
 </body>
 </html>
